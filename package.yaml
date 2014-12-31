@@ -1,0 +1,14 @@
+name : natron
+
+uuid : 017a77ab-76e9-4a14-8fb6-b3052103f7b2
+
+description : "Natron is an open-source, crossplatform nodal, compositing software"
+authors : [inria]
+config_version : 0
+version : 1.0.0
+
+# requires :
+# - badenv
+
+commands:
+- export PATH=$BD_SHARE/natron/!VERSION!:$PATH
